@@ -20,12 +20,12 @@
 
         <div class="site">
           <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
+            <h1 class="title"><a href="{{site.baseurl}}">{{ site.name }}</a></h1>
           </div>
           <ul class="menu">
             {% for article in site.pages %}
               {% if article.title != site.name %}
-                  <li {% if article.url ==  page.url %}class="current"{% endif %}><a href="{{ article.url }}">{{ article.title }}</a></li>
+                  <li {% if article.url ==  page.url %}class="current"{% endif %}><a href="{{ site.baseurl}}/{{ article.url }}">{{ article.title }}</a></li>
                 {% endif %}
             {% endfor %}
           </ul>
