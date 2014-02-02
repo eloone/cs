@@ -41,7 +41,7 @@ $$ln(2)= 0.7$$
 $$e= 2.71$$
 
 <br/><br/>
-![Alt LN graphs](/assets/img/ln.png)
+![Alt LN graphs]({{site.baseurl}}/assets/img/ln.png)
 
 <a name="powers"></a>
 ##Powers
