@@ -25,7 +25,7 @@
           <ul class="menu">
             {% for article in site.pages %}
               {% if article.title != site.name %}
-                  <li {% if article.url ==  page.url %}class="current"{% endif %}><a href="{{ site.baseurl}}/{{ article.url }}">{{ article.title }}</a></li>
+                  <li {% if article.url ==  page.url %}class="current"{% endif %}><a href="{{ site.baseurl}}{{ article.url }}">{{ article.title }}</a></li>
                 {% endif %}
             {% endfor %}
           </ul>
