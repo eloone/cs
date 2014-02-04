@@ -1,2 +1,1 @@
-cs
-==
+<http://eloone.github.io/cs>
