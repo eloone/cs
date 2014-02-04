@@ -138,6 +138,10 @@ code {
   padding: 0 .2em;
 }
 
+pre code{
+  border:0;
+}
+
 .post pre code {
   border: none;
   background-color: transparent;
