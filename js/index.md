@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  "Javascript"
+title:  "Js Code"
 ---
 
 ##Dom snippets

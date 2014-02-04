@@ -201,3 +201,15 @@ margin-top: 30px;
 .highlight pre code{
   background-color: transparent;
 }
+
+.ppties code{
+  margin-bottom: 5px;
+}
+
+table{
+  width:100%;
+}
+
+table tr:nth-child(odd){
+  background:#eee;
+}
