@@ -112,3 +112,12 @@ ex: (1,2), (2,1), (3, 1), (1, 3), (2, 3), (3, 2), (3, 3), (2, 2), (1, 1) in (1,2
 $$e^{ln(N)} = N$$
 $$ln(e^N) = N$$
 $$e^(N+M) = e^Ne^M$$
+
+<a name="seq"></a>
+##Sequences
+
+Arithmetic sequence
+
+$$U_{n+1} = U_n + r$$
+
+$$∑↙{k=0}↖n U_k =  (U_0 + U_n ) * (n + 1) /1$$
