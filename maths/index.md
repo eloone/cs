@@ -118,6 +118,6 @@ $$e^(N+M) = e^Ne^M$$
 
 Arithmetic sequence
 
-$$U_{n+1} = U_n + r$$
+$$U_n+1 = U_n + r$$
 
 $$∑↙{k=0}↖n U_k =  (U_0 + U_n ) * (n + 1) /1$$
