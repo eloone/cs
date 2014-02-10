@@ -27,6 +27,49 @@ Handler  | Tag | Trigerred when
 
 <br>
 
+##Api
+
+Properties
+
+`event.CAPTURING_PHASE = 1`
+
+`event.AT_TARGET = 2`
+
+`event.BUBBLING_PHASE = 3`
+
+`event.bubbles`
+
+`event.cancelable`
+
+`event.clientX, clienY` (relative to browser where the event occurred) <=> `x, y` `pageX, pageY`
+
+`event.offsetX, offsetY` (relative to parent) <=> `layerX, layerY`
+
+`event.screenX, screenY`
+
+`event.currentTarget` (event handler)
+
+`event.target` (source of event)
+
+`event.timestamp`
+
+`event.type`
+
+`event.cancelBubble`
+
+`event.keyCode` ~ `which` `button`
+
+Methods
+
+`event.preventDefault()`
+
+`event.stopPropagation()`
+
+
+
+
+##Declare events
+
 ```html
 
 <form onsubmit="validate();">
@@ -57,7 +100,7 @@ Handler  | Tag | Trigerred when
 
 ```
 
-## W3C
+### W3C
 
     function handler(event){
 	
@@ -109,7 +152,7 @@ var Something = function(element) {
 
 <https://developer.mozilla.org/en-US/docs/Web/API/EventTarget.addEventListener>
 
-## IE
+### IE
 
 `window.event`
 
