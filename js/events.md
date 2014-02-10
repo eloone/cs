@@ -21,7 +21,7 @@ Handler  | Tag | Trigerred when
 `onsubmit` | form | form submitted - return `false` to prevent
 `onreset` | form | form reset
 `onresize` | \<body> \<frameset> | window size changed
-`onerror`| \<img> | image fails loading
+`onerror`| \<img> window | image fails loading, a js error occurres
 `onabort` | \<img> | image loading aborted 
 `onunload` |\<body>\<frameset> | unloaded
 
