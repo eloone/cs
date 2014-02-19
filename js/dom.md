@@ -216,4 +216,8 @@ Methods
 
 `removeAttribute(name)`
 
+`getBoundingClientRect()` (give positions relatively to viewport)
+
+`getClientRects()` (give positions relatively to viewport)
+
 <http://quirksmode.org/dom/core/>
